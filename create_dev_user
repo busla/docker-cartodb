@@ -1,9 +1,11 @@
 #!/bin/sh
 
-SUBDOMAIN="exponent"
-PASSWORD="exponent"
-ADMIN_PASSWORD="exponent"
-EMAIL="exponent@localhost"
+SUBDOMAIN="dev"
+# dev passwords must be longer than or equal to 6 characters
+# https://github.com/sverhoeven/docker-cartodb/commit/0da3b53207f9e648d64f82b083f0f4c1c5a031fe
+PASSWORD="password"
+ADMIN_PASSWORD="password"
+EMAIL="dev@localhost"
 
 echo "--- Creating databases"
 bundle exec rake cartodb:db:setup --trace SUBDOMAIN="${SUBDOMAIN}" \

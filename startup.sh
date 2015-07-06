@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PORT=3000
-SUBDOMAIN=exponent
+SUBDOMAIN=dev
 
 echo "127.0.0.1 ${SUBDOMAIN}.cartodb.localhost" | sudo tee -a /etc/hosts
 
