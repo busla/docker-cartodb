@@ -4,7 +4,7 @@ docker-cartodb
 That container provides a fully working cartodb development solution
 without the installation hassle.
 
-Just run and connect to locahost:3000 into you browser.
+Run and connect to locahost:3000 into your browser.
 
 The default login is dev/pass. You may want to change it when you'll run
 it for the outside.
